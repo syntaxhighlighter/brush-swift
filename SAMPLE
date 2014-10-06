@@ -1,0 +1,22 @@
+var dict = ["a": "Apple",                   // set up the Dictionary
+            "b": "Banana",
+            "c": "Cherry"]
+let bananaIndex = dict.indexForKey("b")!    // retrieve an index
+println(dict[bananaIndex])                  // subscript via DictionaryIndex<String, String>
+> (b, Banana)
+println(dict["c"])                          // subscript via String key
+> Optional("Cherry")
+
+let set: Set = ["Apple", "Banana", "Cherry"]  // set up the Set
+let start: Int = set.startIndex
+println(set[start])
+> Cherry
+
+println(set["Apple"])
+error: type 'Index' does not conform to protocol 'StringLiteralConvertible'
+
+/*
+Checked equality (true) on equal big sets in 0.923960983753204
+Checked equality (false) on different-size big sets in 2.98023223876953e-06
+Checked equality (false) on same-size unequal big sets in 0.908538997173309
+*/
