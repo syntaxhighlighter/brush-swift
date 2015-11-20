@@ -6,51 +6,38 @@
     "syntaxhighlighter",
     "brush"
   ],
-  "browser": {
-    "shCore": "./test/shcore-stub.js"
-  },
   "homepage": "https://github.com/syntaxhighlighter/brush-swift",
   "bugs": "https://github.com/syntaxhighlighter/brush-swift/issues",
   "author": {
     "name": "Nate Cook",
     "url": "https://github.com/natecook1000"
   },
-  "main": "./lib/brush-swift.js",
+  "main": "brush.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/syntaxhighlighter/brush-swift.git"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "mocha --opts mocha.opts test.js"
   },
   "dependencies": {
-    "brush-base": "syntaxhighlighter/brush-base"
+    "brush-base": "syntaxhighlighter/brush-base",
+    "regex-lib": "syntaxhighlighter/regex-lib"
   },
   "devDependencies": {
-    "brfs": "^1.2.0",
-    "regex-lib": "syntaxhighlighter/regex-lib",
     "parser": "syntaxhighlighter/parser",
-    "xregexp": "syntaxhighlighter/xregexp",
     "chai": "^1.9.1",
-    "coffee-errors": "^0.8.6",
-    "coffee-script": "^1.7.1",
-    "coffeeify": "^0.7.0",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-karma": "^0.9.0",
-    "grunt-mocha-cli": "^1.9.0",
-    "karma": "^0.12.16",
-    "karma-bro": "^0.8.0",
-    "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^0.1.2",
-    "karma-firefox-launcher": "^0.1.3",
-    "karma-mocha": "^0.1.9",
-    "mocha": "^1.20.1"
+    "babel-core": "^6.1.21",
+    "babel-preset-es2015": "^6.1.18"
   },
   "engines": {
     "node": ">=0.10.0",
     "npm": ">=1.2.10"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
 }
