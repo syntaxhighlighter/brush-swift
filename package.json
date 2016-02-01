@@ -21,16 +21,16 @@
     "test": "mocha --opts mocha.opts test.js"
   },
   "dependencies": {
-    "brush-base": "syntaxhighlighter/brush-base",
-    "regex-lib": "syntaxhighlighter/regex-lib"
+    "@alexgorbatchev/brush-base": "^4.0.0",
+    "@alexgorbatchev/regex-lib": "^4.0.0"
   },
   "devDependencies": {
-    "parser": "syntaxhighlighter/parser",
     "chai": "^3.4.1",
     "babel-core": "^6.1.21",
     "babel-preset-es2015": "^6.1.18",
     "babel-register": "^6.4.3",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "@alexgorbatchev/parser": "^4.0.0"
   },
   "engines": {
     "node": ">=4",

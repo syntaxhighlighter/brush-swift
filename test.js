@@ -1,6 +1,6 @@
 var chai = require('chai');
 var expect = chai.expect;
-var parser = require('parser');
+var parser = require('@alexgorbatchev/parser');
 var Brush = require('./brush');
 var sample = require('fs').readFileSync(`${__dirname}/sample.txt`, 'utf8');
 

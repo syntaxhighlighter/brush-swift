@@ -2,11 +2,11 @@
 
 Swift brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
 
-[![Build Status](https://travis-ci.org/alexgorbatchev/brush-swift.svg)](https://travis-ci.org/alexgorbatchev/brush-swift)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/brush-swift.svg)](https://travis-ci.org/syntaxhighlighter/brush-swift)
 
 ## Installation
 
-    npm install syntaxhighlighter/brush-swift
+    npm install @alexgorbatchev/brush-swift
 
 ## Testing
 
