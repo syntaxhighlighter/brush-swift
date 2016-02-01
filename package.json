@@ -1,5 +1,5 @@
 {
-  "name": "brush-swift",
+  "name": "@alexgorbatchev/brush-swift",
   "version": "4.0.0",
   "description": "Swift brush module for SyntaxHighlighter.",
   "keywords": [
