@@ -15,7 +15,7 @@ npm install brush-swift
 
 ## Usage
 
-Please see [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter) for usage instructions.
+Please see [Building Instructions](https://github.com/syntaxhighlighter/syntaxhighlighter/wiki/Building) on the [SyntaxHighlighter Wiki](https://github.com/syntaxhighlighter/syntaxhighlighter/wiki) for details.
 
 ## Testing
 
