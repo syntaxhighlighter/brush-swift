@@ -1,6 +1,6 @@
 var BrushBase = require('brush-base');
 var regexLib = require('regex-lib');
-var Match = require('parser').Match;
+var Match = require('syntaxhighlighter-match').Match;
 
 function Brush() {
   // Swift brush contributed by Nate Cook
