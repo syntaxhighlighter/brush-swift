@@ -1,4 +1,3 @@
---compilers js:babel
 --recursive
 --reporter spec
 --ui bdd
