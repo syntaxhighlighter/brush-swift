@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "brush-base": "^4.0.0",
-    "regex-lib": "^4.0.0"
+    "syntaxhighlighter-regex": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
