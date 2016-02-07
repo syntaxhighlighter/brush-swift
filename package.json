@@ -19,7 +19,7 @@
     "url": "https://github.com/syntaxhighlighter/brush-swift.git"
   },
   "scripts": {
-    "test": "babel-node node_modules/.bin/_mocha --opts mocha.opts test.js"
+    "test": "babel-node --only='syntaxhighlighter-*,brush-*' node_modules/.bin/_mocha --opts mocha.opts test.js"
   },
   "dependencies": {
     "brush-base": "^4.0.0",
